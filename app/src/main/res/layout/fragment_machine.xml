@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/Spinner"
-        android:textColor="#000000">
+        android:textColor="#F44336">
     </Spinner>
 
     <TextView
@@ -56,7 +56,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="VALIDATE"
+        android:text="Confirmer"
         android:id="@+id/btnCreate"/>
 
     <ListView

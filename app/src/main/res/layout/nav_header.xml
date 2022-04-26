@@ -3,17 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/teal_700">
+    android:background="@color/teal_200">
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="109dp"
-        android:layout_height="115dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="177dp"
+        android:layout_height="113dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/machine" />
+        app:srcCompat="@mipmap/salle" />
 
     <TextView
         android:layout_width="100dp"
@@ -21,7 +21,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Gestion machines"
+        android:text="G.Machine"
         android:textStyle="bold"
         android:textSize="20sp"
         android:textColor="@color/white"

@@ -7,22 +7,22 @@
         <item
             android:id="@+id/nav_machine"
             android:icon="@drawable/ic_baseline_laptop_mac_24"
-            android:title="Liste des machines" />
+            android:title="Machine List" />
         <item
             android:id="@+id/nav_salle"
             android:icon="@drawable/ic_baseline_meeting_room_24"
-            android:title="Liste des salles" />
-        <item android:title="Statistiques : Nombre de machines">
+            android:title="Salle List" />
+        <item android:title="Graphes : Nbr de machine">
             <menu>
                 <item
                     android:id="@+id/nav_graph1"
                     android:icon="@drawable/ic_baseline_bar_chart_24"
-                    android:title="Par salle" />
+                    android:title=" Graphe Par salle" />
             </menu>
         </item>
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_baseline_exit_to_app_24"
-            android:title="Se déconnecter" />
+            android:title="Logout" />
     </group>
 </menu>
